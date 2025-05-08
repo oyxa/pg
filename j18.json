@@ -251,7 +251,7 @@
 		{"key":"丝袜","name":"🔞丝袜|采集","type":1,"style":{"ratio":1.7},"api":"https://www.siwazyw.tv/api.php/provide/vod"},
 		{"key":"百万","name":"🔞百万|采集","type":1,"style":{"ratio":1.7},"api":"https://api.bwzym3u8.com/api.php/provide/vod"},
 		{"key":"gay","name":"🔞gay|采集","type":1,"style":{"ratio":1.7},"api":"https://gayapi.com/api.php/provide/vod"},
-		{"key":"番茄","name":"🔞番茄|采集","type":1,"style":{"ratio":1.7},"api":"https://fqzy.me//api.php/provide/vod"},
+		//{"key":"番茄","name":"🔞番茄|采集","type":1,"style":{"ratio":1.7},"api":"https://fqzy.me//api.php/provide/vod"},
 		//{"key":"色戒","name":"🔞色戒|采集","type":1,"style":{"ratio":1.7},"api":"https://sjzy.tv/api.php/provide/vod"},
 		{"key":"桃花","name":"🔞桃花|采集","type":1,"style":{"ratio":1.7},"api":"https://thzy1.me/api.php/provide/vod"},
 		//{"key":"优优","name":"🔞优优|采集","type":1,"style":{"ratio":1.7},"api":"https://jk1.yycmszywapi.cc/api.php/provide/vod"},
@@ -463,6 +463,12 @@
 				"is_play_url="
 			]
 		},
+		//{"name":"大地采集","hosts":["v2025.ddcdnbf.com"],"regex":["#EXT-X-KEY:[\\s\\S]+?hwh2iht1[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
+		{"name":"大地|玉兔|155","hosts":["v2025.ddcdnbf.com","yutubf.lsbbf3.com","b.gg155gg1.com"],"regex":["#EXT-X-KEY:METHOD=NONE[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
+		{"name":"桃花","hosts":["thts4.top","thm3u8.vip"],"regex":["#EXT-X-KEY:[\\s\\S]+?ef77QeVR[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
+		//{"name":"桃花","hosts":["thm3u8.vip","thm3u8.com"],"regex":["#EXT-X-KEY:[\\s\\S]+?\\s/[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
+		//{"name":"桃花","hosts":["thm3u8.vip","thm3u8.com"],"regex":["#EXT-X-KEY:[\\s\\S]+?3[\\s\\S]+?3[\\s\\S]+?3[\\s\\S]+?3[\\s\\S]+?:1.28,[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
+		{"name":"桃花","hosts":["thm3u8.vip","thm3u8.com"],"regex":["13.28"]},   //"13.28",
 		{"name":"精品采集","hosts":["ckdns8.com"],"regex":["#EXT-X-KEY:[\\s\\S]+?jpxcdn[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
 		{"name":"奥斯卡|玉兔老色|滴滴","hosts":["askzycdn.com","lsbbf2.com","v.didiv","v.ykv"],"regex":["#EXT-X-KEY:METHOD=NONE[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
 		{"name":"22av","hosts":["m3u8.361lu.com"],"regex":["#EXTINF:10.041667,[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
