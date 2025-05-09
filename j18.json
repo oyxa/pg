@@ -260,8 +260,9 @@
 		{"key":"155","name":"🔞155|采集","type":1,"style":{"ratio":1.7},"api":"https://155api.com/api.php/provide/vod"},
 		
 		{"key":"小鸡","name":"🔞小鸡|失效","type":1,"style":{"ratio":1.7},"api":"https://api.xiaojizy.live/provide/vod"},
-		{"key":"精品","name":"🔞精品|失效","type":1,"style":{"ratio":1.7},"api":"https://www.jingpinx.com/api.php/provide/vod/?ac=list"},
-		{"key":"奥斯卡","name":"🔞奥斯卡|失效","type":1,"style":{"ratio":1.7},"api":"https://aosikazy.com/api.php/provide/vod"},
+		{"key":"精品","name":"🔞精品|失效","type":1,"style":{"ratio":1.7},"api":"http://www.jingpinx.com/api.php/provide/vod/?ac=list"},
+		{"key":"奥斯卡","name":"🔞奥斯卡|失效","type":1,"style":{"ratio":1.7},"ua": "ouyang","api":"http://aosikazy.com/api.php/provide/vod"},
+		{"key":"奥斯卡2","name":"🔞奥斯卡2|失效","type":0,"style":{"ratio":1.7},"ua": "ouyang","api":"https://aosikazy.com/api.php/provide/vod/at/xml/"},
 		
 		//需要梯子{"key":"鲨鱼","name":"🔞鲨鱼|采集","type":1,"style":{"ratio":1.7},"api":"https://shayuapi.com/api.php/provide/vod"},
 		//{"key":"155","name":"🔞155|采集","type":1,"style":{"ratio":1.7},"api":"https://155api.com/api.php/provide/vod"},
@@ -465,7 +466,8 @@
 		},
 		//{"name":"大地采集","hosts":["v2025.ddcdnbf.com"],"regex":["#EXT-X-KEY:[\\s\\S]+?hwh2iht1[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
 		{"name":"大地|玉兔|155","hosts":["v2025.ddcdnbf.com","yutubf.lsbbf3.com","b.gg155gg1.com"],"regex":["#EXT-X-KEY:METHOD=NONE[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
-		{"name":"桃花","hosts":["thts4.top","thm3u8.vip"],"regex":["#EXT-X-KEY:[\\s\\S]+?ef77QeVR[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
+		//临时不可行{"name":"桃花","hosts":["thts4.top","thm3u8.vip"],"regex":["#EXT-X-KEY:[\\s\\S]+?ef77QeVR[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
+		{"name":"桃花","hosts":["thts4.top","thm3u8.vip"],"regex":["#EXT-X-KEY:[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
 		//{"name":"桃花","hosts":["thm3u8.vip","thm3u8.com"],"regex":["#EXT-X-KEY:[\\s\\S]+?\\s/[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
 		//{"name":"桃花","hosts":["thm3u8.vip","thm3u8.com"],"regex":["#EXT-X-KEY:[\\s\\S]+?3[\\s\\S]+?3[\\s\\S]+?3[\\s\\S]+?3[\\s\\S]+?:1.28,[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
 		{"name":"桃花","hosts":["thm3u8.vip","thm3u8.com"],"regex":["13.28"]},   //"13.28",
