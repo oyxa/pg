@@ -54,15 +54,15 @@
                 //"分类url": "http://oy.oyxx-1.eu.org/t/thz/forum-{cateId}-{catePg}.html;;m"
 			//}
         //},
-		{ "key":"ppp","name":"🔞ppp|fq","type":3,"style":{"ratio":1.7},"api":"csp_XBPQ","jar":"./lib/XBPQ.jar",
-            "ext": {
-				//"调试":"1",
-                //"页面代理": "192.168.123.1:7891",
-                "图片": "data-src=\"&&\"",
-				"分类":"中國AV$china-av#日本片商$japan-producer#素人自拍$amateur#中國$china#台灣$taiwan#日本$japan#東南亞$se-asia#韓國$korea#香港$hongkon#Cosplay$cosplay#主播$streamer#主觀視角$first-person-pov#凌辱$bdsm#劇情$drama#多P$threesome#探花$91-tanhua#流出$released#無碼$uncensored#百合$lesbian#野外露出$exhibitionists#OL$office-lady#動漫$ac#古裝$costume#女僕$maid#學生$student#旗袍$cheongsam#獸耳$kemonomimi#瑜伽褲$yoga-pants#真理褲$dolfin-shorts#空姐$flight-attendant#絲襪$pantyhose#護士$nurse#過膝襪$knee-socks",
-                "分类url": "https://ppp.porn/categories/{cateId}/{catePg}/;;z"
-			}
-        },
+		//{ "key":"ppp","name":"🔞ppp|fq","type":3,"style":{"ratio":1.7},"api":"csp_XBPQ","jar":"./lib/XBPQ.jar",
+            //"ext": {
+				////"调试":"1",
+                ////"页面代理": "192.168.123.1:7891",
+                //"图片": "data-src=\"&&\"",
+				//"分类":"中國AV$china-av#日本片商$japan-producer#素人自拍$amateur#中國$china#台灣$taiwan#日本$japan#東南亞$se-asia#韓國$korea#香港$hongkon#Cosplay$cosplay#主播$streamer#主觀視角$first-person-pov#凌辱$bdsm#劇情$drama#多P$threesome#探花$91-tanhua#流出$released#無碼$uncensored#百合$lesbian#野外露出$exhibitionists#OL$office-lady#動漫$ac#古裝$costume#女僕$maid#學生$student#旗袍$cheongsam#獸耳$kemonomimi#瑜伽褲$yoga-pants#真理褲$dolfin-shorts#空姐$flight-attendant#絲襪$pantyhose#護士$nurse#過膝襪$knee-socks",
+                //"分类url": "https://ppp.porn/categories/{cateId}/{catePg}/;;z"
+			//}
+        //},
 		//{ "key":"ppp2","name":"🔞ppp|fq2","type":3,"style":{"ratio":1.7},"api":"csp_XBPQ","jar":"./lib/XBPQ.jar",
             //"ext": {
 				//"调试":"1",
@@ -260,6 +260,7 @@
 		{"key":"155","name":"🔞155|采集","type":1,"style":{"ratio":1.7},"api":"https://155api.com/api.php/provide/vod"},
 		{"key":"精品","name":"🔞精品|采集","type":1,"style":{"ratio":1.7},"api":"http://www.jingpinx.com/api.php/provide/vod"},
 		{"key":"奥斯卡","name":"🔞奥斯卡|采集","type":1,"style":{"ratio":1.7},"api":"http://aosikazy.com/api.php/provide/vod"},
+		{"key":"杏吧","name":"🔞杏吧|采集","type":1,"style":{"ratio":1.7},"api":"https://xingba111.com/api.php/provide/vod"},
 		
 		{"key":"小鸡","name":"🔞小鸡|失效","type":1,"style":{"ratio":1.7},"api":"https://api.xiaojizy.live/provide/vod"},
 
@@ -444,7 +445,7 @@
 		//{"name":"大地采集","hosts":["v2025.ddcdnbf.com"],"regex":["#EXT-X-KEY:[\\s\\S]+?hwh2iht1[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
 		{"name":"大地|玉兔|155|奥斯卡","hosts":["v2025.ddcdnbf.com","yutubf.lsbbf3.com","b.gg155gg1.com","atukjhesk.com"],"regex":["#EXT-X-KEY:METHOD=NONE[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
 		//临时不可行{"name":"桃花","hosts":["thts4.top","thm3u8.vip"],"regex":["#EXT-X-KEY:[\\s\\S]+?ef77QeVR[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
-		{"name":"桃花","hosts":["thm3u8.vip","thm3u8.com"],"regex":[
+		{"name":"桃花|精品","hosts":["thm3u8.vip","thm3u8.com","jinpinxm.com","03hao.top"],"regex":[
 			"#EXT-X-KEY:[\\s\\S]+?#EXT-X-DISCONTINUITY",
 			"13.28"
 		]},
