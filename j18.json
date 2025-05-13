@@ -443,16 +443,22 @@
 		{"name": "火山嗅探","hosts": ["huoshan.com"],"regex": ["item_id="]},
 		{"name": "抖音嗅探","hosts": ["douyin.com"],"regex": ["is_play_url="]},
 		//{"name":"大地采集","hosts":["v2025.ddcdnbf.com"],"regex":["#EXT-X-KEY:[\\s\\S]+?hwh2iht1[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
-		{"name":"大地|玉兔|155|奥斯卡","hosts":["v2025.ddcdnbf.com","yutubf.lsbbf3.com","b.gg155gg1.com","atukjhesk.com"],"regex":["#EXT-X-KEY:METHOD=NONE[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
-		//临时不可行{"name":"桃花","hosts":["thts4.top","thm3u8.vip"],"regex":["#EXT-X-KEY:[\\s\\S]+?ef77QeVR[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
+		//https://lsbbf5.com/20231024/TnjFlHbs/index.m3u8
+		//https://yutubf.lsbbf3.com/20250511/Uftv7ule/index.m3u8
+		//https://v.didinew6.com/20250512/ul6woNb3/index.m3u8
+		//jinpinxm.com
+		{"name":"大地|玉兔|155|奥斯卡|滴滴","hosts":[
+			"v2025.ddcdnbf.com",".*lsbbf..com.*","b.gg155gg1.com",
+			"atukjhesk.com","bfaskbwerve.com",
+			"v.didi.*?com.*"
+		],"regex":["#EXT-X-KEY:METHOD=NONE[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
 		{"name":"桃花|精品","hosts":["thm3u8.vip","thm3u8.com","jinpinxm.com","03hao.top"],"regex":[
 			"#EXT-X-KEY:[\\s\\S]+?#EXT-X-DISCONTINUITY",
 			"13.28"
 		]},
 		//{"name":"桃花","hosts":["thm3u8.vip","thm3u8.com"],"regex":["#EXT-X-KEY:[\\s\\S]+?\\s/[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
 		//{"name":"桃花","hosts":["thm3u8.vip","thm3u8.com"],"regex":["#EXT-X-KEY:[\\s\\S]+?3[\\s\\S]+?3[\\s\\S]+?3[\\s\\S]+?3[\\s\\S]+?:1.28,[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
-		{"name":"精品采集","hosts":["ckdns8.com"],"regex":["#EXT-X-KEY:[\\s\\S]+?jpxcdn[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
-		{"name":"奥斯卡|玉兔老色|滴滴","hosts":["askzycdn.com","lsbbf2.com","v.didiv","v.ykv"],"regex":["#EXT-X-KEY:METHOD=NONE[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
+		//{"name":"奥斯卡|玉兔老色|滴滴","hosts":["askzycdn.com","lsbbf2.com","v.didiv","v.ykv"],"regex":["#EXT-X-KEY:METHOD=NONE[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
 		{"name":"22av","hosts":["m3u8.361lu.com"],"regex":["#EXTINF:10.041667,[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
 		{"name": "農民嗅探","hosts": ["toutiaovod.com"],"regex": ["video/tos/cn"]},
 		{"name": "夜市","hosts": ["yeslivetv.com"],"script": ["document.getElementsByClassName('vjs-big-play-button')[0].click()"]},
