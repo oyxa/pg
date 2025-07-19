@@ -261,6 +261,7 @@
 		{"key":"精品","name":"🔞精品|采集","type":1,"style":{"ratio":1.7},"api":"http://www.jingpinx.com/api.php/provide/vod"},
 		{"key":"奥斯卡","name":"🔞奥斯卡|采集","type":1,"style":{"ratio":1.7},"api":"http://aosikazy.com/api.php/provide/vod"},
 		{"key":"杏吧","name":"🔞杏吧|采集","type":1,"style":{"ratio":1.7},"api":"https://xingba111.com/api.php/provide/vod"},
+		{"key":"大奶","name":"🔞大奶|采集","type":1,"style":{"ratio":1.7},"api":"https://apidanaizi.com/api.php/provide/vod"},
 		
 		{"key":"小鸡","name":"🔞小鸡|失效","type":1,"style":{"ratio":1.7},"api":"https://api.xiaojizy.live/provide/vod"},
 
@@ -447,9 +448,9 @@
 		//https://yutubf.lsbbf3.com/20250511/Uftv7ule/index.m3u8
 		//https://v.didinew6.com/20250512/ul6woNb3/index.m3u8
 		//jinpinxm.com
-		{"name":"大地|玉兔|155|奥斯卡|滴滴","hosts":[
+		{"name":"大地|玉兔|155|奥斯卡|滴滴|百万","hosts":[
 			"v2025.ddcdnbf.com",".*lsbbf..com.*","b.gg155gg1.com",
-			"atukjhesk.com","bfaskbwerve.com",
+			"atukjhesk.com","bfaskbwerve.com","m3u8.bwzyplay.com",
 			"v.didi.*?com.*"
 		],"regex":["#EXT-X-KEY:METHOD=NONE[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
 		{"name":"桃花|精品","hosts":["thm3u8.vip","thm3u8.com","jinpinxm.com","03hao.top"],"regex":[
@@ -460,6 +461,7 @@
 		//{"name":"桃花","hosts":["thm3u8.vip","thm3u8.com"],"regex":["#EXT-X-KEY:[\\s\\S]+?3[\\s\\S]+?3[\\s\\S]+?3[\\s\\S]+?3[\\s\\S]+?:1.28,[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
 		//{"name":"奥斯卡|玉兔老色|滴滴","hosts":["askzycdn.com","lsbbf2.com","v.didiv","v.ykv"],"regex":["#EXT-X-KEY:METHOD=NONE[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
 		{"name":"22av","hosts":["m3u8.361lu.com"],"regex":["#EXTINF:10.041667,[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
+		{"name":"大奶","hosts":["voddadaizi.com"],"regex":["#EXT-X-MEDIA-SEQUENCE:0[\\s\\S]+?#EXT-X-DISCONTINUITY"]},
 		{"name": "農民嗅探","hosts": ["toutiaovod.com"],"regex": ["video/tos/cn"]},
 		{"name": "夜市","hosts": ["yeslivetv.com"],"script": ["document.getElementsByClassName('vjs-big-play-button')[0].click()"]},
 		{"name": "毛驢","hosts": ["www.maolvys.com"],"script": ["document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"]},
